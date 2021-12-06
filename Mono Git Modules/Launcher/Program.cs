@@ -11,6 +11,10 @@ namespace Launcher
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, world from Launcher!");
+
+            Console.WriteLine("Arguments:");
+
+            Console.WriteLine(String.Join("|", args));
         }
     }
 }
